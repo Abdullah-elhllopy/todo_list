@@ -40,7 +40,6 @@ const TodoList = () => {
 
             <div className="container">
                 <h2>TODO LIST</h2>
-                <h3>Todo</h3>
                 <p>
                     <input  value={filterText}
                 onChange={handleFilterChange} id="new-task" type="text" />
@@ -50,7 +49,6 @@ const TodoList = () => {
                         <TodoItem key={todo.id} todo={todo} />
                     ))}
                 </ul>
-              
             </div>
         </div>
     );

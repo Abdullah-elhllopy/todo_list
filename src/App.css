@@ -40,24 +40,8 @@ h3 {
 	list-style: none;
 }
 
-input,
-button {
+input {
 	outline: none;
-}
-
-button {
-	background: none;
-	border: 0px;
-	color: #888;
-	font-size: 15px;
-	width: 60px;
-	margin: 10px 0 0;
-	font-family: Lato, sans-serif;
-	cursor: pointer;
-}
-
-button:hover {
-	color: #333;
 }
 
 
@@ -125,12 +109,10 @@ li > input[type="checkbox"] {
 li > label {
 	font-size: 18px;
 	line-height: 40px;
-	width: 237px;
 	padding: 0 0 0 11px;
 }
 
 li > input[type="text"] {
-	width: 226px;
 }
 
 li > .delete:hover {
